@@ -325,7 +325,7 @@ class PromptCompressor:
         Args:
             context: Input text.
             compress_ratio: Compression ratio (0 ~ 1).
-            method: "ppl", "attn_ppl", "dynamic_ppl", "dynamic_attn_ppl", etc.
+            method: "ppl", "attn_ppl", "dynamic_ppl", "dynamic_attn_ppl", and "dynamic_attn_ppl_wosucce"
             fusion: "additive" or "multiplicative".
             alpha: Weight for attention in additive fusion.
             dyn_time: Number of dynamic iterations. If None, auto-calculate.

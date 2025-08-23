@@ -1,0 +1,15 @@
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Required by transformers
+huggingface-hub>=0.16.0
+tokenizers>=0.13.0
+safetensors>=0.3.0
+
+# Basic utilities
+numpy>=1.21.0
+tqdm>=4.65.0
+regex>=2022.0.0
+filelock>=3.0.0
+typing-extensions>=4.0.0

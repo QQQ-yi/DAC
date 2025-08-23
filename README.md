@@ -33,8 +33,9 @@ git clone https://github.com/QQQ-yi/DAC.git
 cd DAC
 
 # Create and activate the conda environment
-conda env create -f environment.yml
-conda activate DAC
+conda create -n dac python=3.10
+conda activate dac
+pip install -r requirements.txt
 ```
 
 ## ▶️ 3. How to Run
